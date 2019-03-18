@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.github.ppolushkin</groupId>
 	<artifactId>newsAnalyzer</artifactId>
-	<version>1.0</version>
+	<version>1</version>
 	<name>newsAnalyzer</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -38,6 +38,39 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
+<!-- Azure -->
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-batch</artifactId>
+			<version>5.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.rest</groupId>
+			<artifactId>client-runtime</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-client-runtime</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-storage</artifactId>
+			<version>8.0.0</version>
+		</dependency>
+<!-- Commons -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
 		</dependency>
 	</dependencies>
 

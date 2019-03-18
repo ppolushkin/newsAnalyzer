@@ -1,4 +1,0 @@
-newsApiUrl: https://newsapi.org/v2/everything?language=ru&sources=google-news-ru,lenta,rbc,rt&sortBy=popularity&apiKey=0045f07ceaf34eebaaf50340a3dd5f17
-date: 2019-02-10
-retriesOnError: 2
-topics: СУД,МВД,ПРОКУР,РФ,РОССИ,США,УКРАИН,OTHER

@@ -84,7 +84,7 @@ public class Application implements CommandLineRunner {
             log.info(topic + ": " + topicsCount.get(topic).get());
         }
 
-        csvFileWriter.write(topics.replace(",",":") + "_" + date + ".csv", topics, topicsCount);
+        csvFileWriter.write( "output_" + date + ".csv", topics, topicsCount);
     }
 
     private void printNews(int dayInterval, News news) {
